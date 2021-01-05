@@ -35,6 +35,18 @@ h1 {
   margin-right: 100px;
 }
 
+.grid-container {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-gap: 10px;
+  grid-row: 4;
+  justify-content: center;
+}
+
+.grid-item {
+  grid-column: 2;
+}
+
 #bio-main {
   float: left;
   background-color: white;
@@ -57,4 +69,5 @@ h1 {
   background-color: white;
   padding: 10px;
   margin-top: 20px;
+  margin-bottom: 15px;
 }
